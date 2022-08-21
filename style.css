@@ -127,7 +127,7 @@ font-size: 20px;
     background-color: var(--main);
     color: var(--accent);
     font-size: 35px;
-    grid-template: 20% 25% 25% /1fr;
+    grid-template: 25% 25% 25% /1fr;
     align-items: center;
     position: fixed;
     height: 100%;
