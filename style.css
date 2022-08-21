@@ -175,9 +175,17 @@ font-size: 20px;
     grid-template: 50% 50% / 10fr 5fr;
     height: 975px;
 }
+.mainContent h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 30px 0px 0px 5px;
+}
 .yourProjects{
     grid-area: 1 / 1 / 2 /1;
     display: grid;
+}
+.yourProjects h2{
+    margin-left: 40px;
 }
 .yourProjects ul{
     display: grid;
@@ -188,6 +196,7 @@ font-size: 20px;
 .yourProjects li{
     padding: 40px;
     background-color: #f5f5f5;
+    border-radius: 2%;
 }
 .announcements{
     grid-area: 1 / 2 / 1 /2;
@@ -196,11 +205,11 @@ font-size: 20px;
 }
 .announcements ul{
     padding: 10px 10px 10px 40px;
-    border-radius: 5%;
+    border-radius: 2%;
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    margin: 35px 35px 0px 0px;
+    margin: 15px 35px 0px 0px;
     list-style: none;
 }
 .announcements li{
