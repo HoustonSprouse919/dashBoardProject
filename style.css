@@ -32,7 +32,7 @@ form.search input[type=text] {
     border: none;
     border-radius: 20px;
     float: left;
-    width: 70%;
+    width: 80%;
     background: #dfdede;
   }
   form.search button {
@@ -134,13 +134,13 @@ font-size: 20px;
 .sidebar ul{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 .sidebar li{
     display: flex;
     list-style: none;
-    gap: 10px;
-    align-items: baseline;
+    gap: 15px;
+    align-items: flex-start;
 }
 .sidebar .logo{
     height: auto;
@@ -150,6 +150,7 @@ font-size: 20px;
     grid-area: 1 / 1 / 1 /2;
     display: flex;
     align-items: center;
+    margin-left: -10px;
 }
 .firstGroup{
     grid-area: 2 / 1 / 2 /2;
@@ -162,7 +163,8 @@ font-size: 20px;
     width: 40px;
 }
 .sidebar svg{
-    width: 50px;
+    height: auto;
+    width: 40px;
     fill: var(--accent);
 }
 .mainContent{
